@@ -1,7 +1,3 @@
-Here is the documentation drafted entirely from your point of view. You can drop this straight into your `README.md` file. It keeps the technical weight of what you built while staying humble, human, and a bit lighthearted.
-
----
-
 # PyVisor: A Type-2 Hypervisor Simulator
 
 ### The Elephant in the Room (Read Me First)
