@@ -48,7 +48,9 @@ pip install -r requirements.txt
 ```
 
 **3. Wake up the Cognitive Agent (Optional but highly recommended):**
-To let the AI agent actually monitor the system, you need a Google Gemini API key.
+To let the AI agent actually monitor the system, you need a Google Gemini API key (free version is okay).
+There is also a `set-agent ` command to set the mode in which you want to use the AI for - including openrouter and ollama - though I have only tested with gemini api - the 2.5 flash model (you wont need to explicitly state the model or api key unless you use the `set-agent` command). The quickest and also the tested way is to grab a gemini api key from google's aistudio and do the following ->
+
 
 * Rename the `.env.example` file to `.env`
 * Paste your API key inside:
